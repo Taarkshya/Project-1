@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+
+}
+
+#container .row{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+#container .row .row1{
+    font-size: 20px;
+
+}
+
+#container .row .row2{
+    width: 100%;
+    text-align: center;
+}

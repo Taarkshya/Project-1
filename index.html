@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <script>
+    //     let variable = [{word:"shashank",meaning : 'moon'},
+    //     {word:"eert",meaning : 'dfdg'}
+    // ]
+    let words = ['shashank','sugam','dharshan']
+    let meanings = ['a','b','c']
+    let variable = {}
+
+    function display(words,meanings){
+        for(let i=0;i<words.length;i++){
+        console.log(words[i],meanings[i]);
+        document.getElementById("container").innerHTML+=( `
+        <div class="row">
+            <div class='row1'>${words[i]}</div>
+            <div class='row2'>${meanings[i]}</div>
+        </div>
+        `)
+    }    
+    }
+    display(words,meanings);
+    
+    </script>
+</body>
+</html>
